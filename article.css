@@ -1,0 +1,90 @@
+#container {
+    border: 1px solid transparent;
+    /* height: 1500px; */
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 5px;
+    font-family: sans-serif;
+
+}
+
+#leftDiv{
+    border: 1px solid transparent;
+    width: 50%;
+}
+
+#rightDiv{
+    border: 1px solid transparent;
+    width: 50%;
+}
+
+.btnDiv{
+    border: 1px solid transparent;
+    width: 25%;
+    margin: auto;
+}
+
+.btnDiv > button{
+    height: 35px;
+    width: 100%;
+}
+
+.card{
+    border: 1px solid transparent;
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    margin-top: 25px;
+    gap: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.upperDiv{
+    border: 1px solid transparent;
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lowerDiv{
+    border: 1px solid transparent;
+    display: flex;
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+
+.anchor{
+    margin-top: 15px;
+}
+
+.titleDiv{
+    border: 1px solid transparent;
+    text-align: center;
+    height: 75px;
+}
+
+#btnDiv{
+    /* border: 1px solid black; */
+    width: 450px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    gap: 15px;
+}
+
+
+#avatar{
+    width: 100px;
+    height: 100px;
+}
+
+
